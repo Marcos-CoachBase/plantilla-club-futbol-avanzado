@@ -1254,6 +1254,22 @@ h1, h2, h3, h4 { text-wrap: balance; line-height: 1.08; letter-spacing: -0.01em;
 [data-theme="dark"] .news-card { background: var(--white); border-color: var(--line); }
 [data-theme="dark"] .hero-bg::after { opacity: .55; }
 [data-theme="dark"] .logo-tile img { filter: brightness(0) invert(1) opacity(.82); }
+[data-theme="dark"] .field label { color: var(--gold-2); }
+[data-theme="dark"] .value-icon { color: var(--gold-2); }
+[data-theme="dark"] .contact-info-item strong,
+[data-theme="dark"] .staff-card strong,
+[data-theme="dark"] .bento-num,
+[data-theme="dark"] .bento-item h3,
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] .btn-outline { color: #fff; }
+[data-theme="dark"] .btn-outline { border-color: rgba(255,255,255,.35); }
+[data-theme="dark"] .btn-outline:hover { border-color: #fff; background: rgba(255,255,255,.06); }
+[data-theme="dark"] .page-hero h1,
+[data-theme="dark"] .article-hero-inner h1,
+[data-theme="dark"] .team-banner h2 { color: #fff; }
 
 .theme-toggle {
   width: 40px; height: 40px;
