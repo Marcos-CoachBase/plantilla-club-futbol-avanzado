@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="img" aria-label="Avatar genérico de jugador">
+  <rect width="240" height="240" fill="#EAF0F7"/>
+
+  <!-- Cuello -->
+  <rect x="103" y="118" width="34" height="30" fill="#c99a72"/>
+
+  <!-- Camiseta -->
+  <path d="M120 128
+           C 95 128 82 138 70 152
+           L 46 178
+           L 66 198
+           L 82 182
+           L 82 240
+           L 158 240
+           L 158 182
+           L 174 198
+           L 194 178
+           L 170 152
+           C 158 138 145 128 120 128 Z"
+        fill="#0B2340"/>
+
+  <!-- Ribete cuello y mangas, en dorado -->
+  <path d="M100 132 C 107 142 133 142 140 132" stroke="#C9A227" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M70 152 L 46 178 L 66 198" stroke="#C9A227" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M170 152 L 194 178 L 174 198" stroke="#C9A227" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cabeza -->
+  <circle cx="120" cy="90" r="48" fill="#caa07a"/>
+
+  <!-- Orejas -->
+  <circle cx="70" cy="93" r="8" fill="#caa07a"/>
+  <circle cx="170" cy="93" r="8" fill="#caa07a"/>
+
+  <!-- Pelo corto -->
+  <path d="M70 82
+           C 66 42 92 24 120 24
+           C 148 24 174 42 170 82
+           C 168 62 152 46 120 46
+           C 88 46 72 62 70 82 Z"
+        fill="#241a10"/>
+  <path d="M70 82 C 68 92 70 100 74 104 C 70 96 70 88 72 80 Z" fill="#241a10"/>
+  <path d="M170 82 C 172 92 170 100 166 104 C 170 96 170 88 168 80 Z" fill="#241a10"/>
+</svg>
