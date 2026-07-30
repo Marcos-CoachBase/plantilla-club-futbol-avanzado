@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 230">
+  <defs>
+    <clipPath id="fc-clip">
+      <path d="M100,4 C100,4 20,26 20,26 L20,112 C20,170 54,206 100,226 C146,206 180,170 180,112 L180,26 C180,26 100,4 100,4 Z"/>
+    </clipPath>
+  </defs>
+  <path d="M100,4 C100,4 20,26 20,26 L20,112 C20,170 54,206 100,226 C146,206 180,170 180,112 L180,26 C180,26 100,4 100,4 Z" fill="#0B2340" stroke="#C9A227" stroke-width="4"/>
+  <g clip-path="url(#fc-clip)">
+    <rect x="-20" y="96" width="240" height="150" fill="#123059"/>
+    <polygon points="-20,4 260,54 260,100 -20,50" fill="#C9A227"/>
+  </g>
+  <circle cx="100" cy="120" r="47" fill="#F6F7FA" stroke="#C9A227" stroke-width="3"/>
+  <text x="100" y="136" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="46" fill="#0B2340">AR</text>
+  <polygon points="100,180 103.2,188.2 112,188.4 105,193.6 107.6,202 100,197 92.4,202 95,193.6 88,188.4 96.8,188.2" fill="#E2BA3E"/>
+</svg>
