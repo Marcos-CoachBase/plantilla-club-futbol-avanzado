@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Créditos fotográficos · Atlético Riomar</title>
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="styles.css?v=1">
+<style>
+  .credits-page { padding-block: clamp(6rem, 10vw, 8rem) 5rem; max-width: 760px; }
+  .credits-page h1 { font-size: clamp(2rem, 4vw, 2.8rem); text-transform: uppercase; }
+  .credits-page > p { color: var(--mute); margin-top: 1rem; }
+  .credits-list { margin-top: 2.5rem; display: grid; gap: 1rem; }
+  .credits-list li {
+    padding: 1.1rem 1.3rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-sm);
+    font-size: .92rem;
+    color: var(--mute);
+  }
+  .credits-list strong { color: var(--navy); }
+  .credits-list a { color: var(--navy); text-decoration: underline; text-underline-offset: 2px; }
+  .back-link { display: inline-flex; align-items: center; gap: .4rem; font-family: var(--display); font-size: .8rem; letter-spacing: .06em; text-transform: uppercase; color: var(--navy); }
+</style>
+</head>
+<body>
+<a href="#contenido" class="skip-link">Saltar al contenido</a>
+<header class="nav is-solid">
+  <div class="container nav-inner">
+    <a href="index.html" class="brand">
+      <svg width="42" height="42" viewBox="0 0 200 230" aria-hidden="true">
+        <defs>
+          <clipPath id="cc-clip"><path d="M100,4 C100,4 20,26 20,26 L20,112 C20,170 54,206 100,226 C146,206 180,170 180,112 L180,26 C180,26 100,4 100,4 Z"/></clipPath>
+        </defs>
+        <path d="M100,4 C100,4 20,26 20,26 L20,112 C20,170 54,206 100,226 C146,206 180,170 180,112 L180,26 C180,26 100,4 100,4 Z" fill="#0B2340" stroke="#C9A227" stroke-width="4"/>
+        <g clip-path="url(#cc-clip)"><rect x="-20" y="96" width="240" height="150" fill="#123059"/><polygon points="-20,4 260,54 260,100 -20,50" fill="#C9A227"/></g>
+        <circle cx="100" cy="120" r="47" fill="#F6F7FA" stroke="#C9A227" stroke-width="3"/>
+        <text x="100" y="136" text-anchor="middle" font-family="Oswald, sans-serif" font-weight="700" font-size="46" fill="#0B2340">AR</text>
+      </svg>
+      <span class="brand-text">
+        <span class="brand-name">Atlético Riomar</span>
+        <span class="brand-sub">Club Deportivo · 1978</span>
+      </span>
+    </a>
+    <a href="index.html" class="back-link">← Volver a la web</a>
+  </div>
+</header>
+
+<main id="contenido" class="container credits-page">
+  <h1>Créditos fotográficos</h1>
+  <p>Algunas fotografías de esta plantilla proceden de <a href="https://openverse.org" target="_blank" rel="noopener" style="color:var(--navy);text-decoration:underline;">Openverse</a> bajo licencias Creative Commons y se usan como imágenes de muestra. Sustitúyelas por fotografías propias del club antes de publicar la web.</p>
+  <ul class="credits-list" data-credits>
+    <li>Cargando créditos…</li>
+  </ul>
+</main>
+
+<script defer src="lib/credits-render.js?v=1"></script>
+</body>
+</html>
