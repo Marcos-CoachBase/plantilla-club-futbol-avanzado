@@ -1419,20 +1419,27 @@ h1, h2, h3, h4 { text-wrap: balance; line-height: 1.08; letter-spacing: -0.01em;
 .categoria-meta div strong { display: block; font-family: var(--display); font-size: 1.1rem; color: var(--navy); }
 [data-theme="dark"] .categoria-meta div strong { color: var(--gold-2); }
 .categoria-meta div span { font-size: .7rem; text-transform: uppercase; letter-spacing: .07em; color: var(--mute); }
-.staff-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+.staff-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1.2rem; }
 .staff-card {
-  display: flex; align-items: center; gap: .9rem;
+  display: flex; flex-direction: column; align-items: center; text-align: center;
   background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-md);
-  padding: 1rem 1.2rem; box-shadow: var(--shadow-sm);
+  padding: 1.6rem 1rem 1.3rem; box-shadow: var(--shadow-sm);
+  transition: transform .3s var(--ease-out), box-shadow .3s var(--ease-out);
 }
+.staff-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
 .staff-avatar {
-  width: 46px; height: 46px; border-radius: 50%; background: var(--navy); color: #fff;
-  display: grid; place-items: center; font-family: var(--display); font-size: .95rem; flex: none;
+  width: 100px; height: 100px; border-radius: 50%; background: var(--navy); color: #fff;
+  display: grid; place-items: center; font-family: var(--display); font-size: 1.7rem;
+  margin: 0 auto 1rem; flex: none;
+  border: 3px solid var(--gold-soft); box-shadow: var(--shadow-sm);
 }
-.staff-card strong { display: block; font-size: .94rem; }
+.staff-card strong { display: block; font-size: 1rem; }
 .staff-avatar { overflow: hidden; }
 .staff-avatar img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
-.staff-card span { font-size: .78rem; color: var(--mute); }
+.staff-card span {
+  display: block; margin-top: .3rem; font-size: .72rem; color: var(--mute);
+  text-transform: uppercase; letter-spacing: .07em;
+}
 
 /* ---- 11.7 Patrocinadores por niveles ---- */
 .sponsor-tier-label-lg { font-size: .78rem; text-transform: uppercase; letter-spacing: .1em; color: var(--gold-2); font-weight: 700; margin: 2.2rem 0 1rem; }
