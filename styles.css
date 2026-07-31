@@ -1430,6 +1430,8 @@ h1, h2, h3, h4 { text-wrap: balance; line-height: 1.08; letter-spacing: -0.01em;
   display: grid; place-items: center; font-family: var(--display); font-size: .95rem; flex: none;
 }
 .staff-card strong { display: block; font-size: .94rem; }
+.staff-avatar { overflow: hidden; }
+.staff-avatar img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
 .staff-card span { font-size: .78rem; color: var(--mute); }
 
 /* ---- 11.7 Patrocinadores por niveles ---- */
