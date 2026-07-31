@@ -30,6 +30,7 @@
   --paper:       #F6F7FA;
   --paper-2:     #EDF0F5;
   --white:       #FFFFFF;
+  --surface:     #FFFFFF;
   --ink:         #10151F;
   --ink-soft:    #313A48;
   --mute:        #626C7A;
@@ -253,7 +254,7 @@ h1, h2, h3, h4 { text-wrap: balance; line-height: 1.08; letter-spacing: -0.01em;
 
 /* --- Tarjetas genéricas --- */
 .card {
-  background: var(--white);
+  background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm);
@@ -356,7 +357,7 @@ h1, h2, h3, h4 { text-wrap: balance; line-height: 1.08; letter-spacing: -0.01em;
 }
 .nav-burger span {
   display: block; width: 22px; height: 2px;
-  background: var(--white);
+  background: var(--surface);
   transition: transform .35s var(--ease-out), opacity .35s var(--ease-out);
 }
 .nav-burger.is-open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
@@ -408,7 +409,7 @@ h1, h2, h3, h4 { text-wrap: balance; line-height: 1.08; letter-spacing: -0.01em;
   padding: .85rem 1rem;
   border: 1.5px solid var(--line-strong);
   border-radius: var(--radius-sm);
-  background: var(--white);
+  background: var(--surface);
   transition: border-color .3s var(--ease-out), box-shadow .3s var(--ease-out);
 }
 .field input:focus, .field textarea:focus {
@@ -575,7 +576,7 @@ h1, h2, h3, h4 { text-wrap: balance; line-height: 1.08; letter-spacing: -0.01em;
 .club-media-badge {
   position: absolute;
   bottom: 1.25rem; left: 1.25rem;
-  background: var(--white);
+  background: var(--surface);
   border-radius: var(--radius-md);
   padding: .9rem 1.15rem;
   display: flex;
@@ -1030,7 +1031,7 @@ h1, h2, h3, h4 { text-wrap: balance; line-height: 1.08; letter-spacing: -0.01em;
   align-items: center;
   justify-content: center;
   min-height: 130px;
-  background: var(--white);
+  background: var(--surface);
 }
 .sponsor-grid {
   display: grid;
@@ -1057,7 +1058,7 @@ h1, h2, h3, h4 { text-wrap: balance; line-height: 1.08; letter-spacing: -0.01em;
 .sponsor-tile.has-logo {
   border-style: solid;
   border-color: var(--line);
-  background: var(--white);
+  background: var(--surface);
   padding: 1rem 1.4rem;
 }
 .sponsor-tile.has-logo:hover { border-color: var(--gold); }
@@ -1238,7 +1239,7 @@ h1, h2, h3, h4 { text-wrap: balance; line-height: 1.08; letter-spacing: -0.01em;
 [data-theme="dark"] {
   --paper:       #0B1220;
   --paper-2:     #0F1A2E;
-  --white:       #142138;
+  --surface:     #142138;
   --ink:         #F2F5FA;
   --ink-soft:    #D6DDE8;
   --mute:        #92A0B5;
@@ -1249,9 +1250,6 @@ h1, h2, h3, h4 { text-wrap: balance; line-height: 1.08; letter-spacing: -0.01em;
   color-scheme: dark;
 }
 [data-theme="dark"] .nav.is-solid { background: rgba(11,18,32,.86); }
-[data-theme="dark"] .card,
-[data-theme="dark"] .sponsor-main-tile,
-[data-theme="dark"] .news-card { background: var(--white); border-color: var(--line); }
 [data-theme="dark"] .hero-bg::after { opacity: .55; }
 [data-theme="dark"] .logo-tile img { filter: brightness(0) invert(1) opacity(.82); }
 [data-theme="dark"] .field label { color: var(--gold-2); }
@@ -1324,7 +1322,7 @@ h1, h2, h3, h4 { text-wrap: balance; line-height: 1.08; letter-spacing: -0.01em;
   border-radius: var(--radius-lg);
   overflow: hidden;
   box-shadow: var(--shadow-md);
-  background: var(--white);
+  background: var(--surface);
   padding: 1.6rem;
   display: flex; flex-direction: column; justify-content: flex-end;
 }
@@ -1396,7 +1394,7 @@ h1, h2, h3, h4 { text-wrap: balance; line-height: 1.08; letter-spacing: -0.01em;
 }
 .categoria-tab {
   border: 1.5px solid var(--line-strong);
-  background: var(--white);
+  background: var(--surface);
   color: var(--ink-soft);
   padding: .65rem 1.2rem;
   border-radius: 999px;
@@ -1424,7 +1422,7 @@ h1, h2, h3, h4 { text-wrap: balance; line-height: 1.08; letter-spacing: -0.01em;
 .staff-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
 .staff-card {
   display: flex; align-items: center; gap: .9rem;
-  background: var(--white); border: 1px solid var(--line); border-radius: var(--radius-md);
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-md);
   padding: 1rem 1.2rem; box-shadow: var(--shadow-sm);
 }
 .staff-avatar {
@@ -1439,7 +1437,7 @@ h1, h2, h3, h4 { text-wrap: balance; line-height: 1.08; letter-spacing: -0.01em;
 .sponsor-tier-label-lg:first-child { margin-top: 0; }
 .logo-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1.1rem; }
 .logo-tile {
-  background: var(--white); border: 1px solid var(--line); border-radius: var(--radius-md);
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-md);
   display: grid; place-items: center; padding: 1.2rem; min-height: 84px;
   box-shadow: var(--shadow-sm); font-weight: 700; color: var(--mute); letter-spacing: .03em;
 }
